@@ -2,7 +2,6 @@
     box-sizing: border-box;
 }
 
-/**最上面**/
 header {
     background-color: #ea7d59;
     color: #efd43c;
@@ -16,7 +15,7 @@ body {
     margin: 0px;
 }
 
-/**目錄超連結**/
+
 nav{
     background-color: #ece55f;
     text-align: center;
@@ -39,7 +38,6 @@ main {
     flex-direction: column;
 }
 
-/**關於我**/
 section {
     margin-bottom: 20px;
 }
@@ -66,7 +64,7 @@ section {
     margin-top: 60px;
 }
 
-/**聯絡方式**/
+
 .container {
     display: flex;
 }
@@ -92,15 +90,18 @@ article img {
     height: auto; /* 將圖片的高度設置為 70 像素，使其成為正方形 */
 }
 
-.skill1 {
+
+.a1 {
     color: #557171;
 }
 
-.skill2 {
+
+.a2 {
     margin-bottom: 10px;
 }
 
-.skill3 {
+
+.a3 {
     width: 100%;
     height: 20px;
     background-color: #dbb389;
@@ -109,182 +110,8 @@ article img {
     margin-bottom: 10px;
 }
 
-.skill4 {
-    width: 0;
-    height: 100%;
-    background-color: #cf6f57;
-    animation: progressAnimation 2s ease-in-out forwards;
-}
 
-@keyframes PYTHON {
-    from {
-        width: 0;
-    }
-
-    to {
-        width: 50%;
-    }
-}
-
-@keyframes JAVA {
-    from {
-        width: 0;
-    }
-
-    to {
-        width: 60%;
-    }
-}
-
-@keyframes HTML {
-    from {
-        width: 0;
-    }
-
-    to {
-        width: 60%;
-    }
-}
-
-@keyframes CSS {
-    from {
-        width: 0;
-    }
-
-    to {
-        width: 45%;
-    }
-}
-
-aside {
-    flex: 2;
-    padding-left: 10px;
-}
-
-.about-img2 {
-    max-width: 500px;
-    max-height: 500px;
-    margin-top: 0px;
-    float: right;
-    margin-right: 200px;
-    border-radius: 10px;
-}
-
-.activity1 {
-    color: #cf6f57;
-    font-size: 25px;
-    text-align: center;
-    margin-top: -70px;* {
-    box-sizing: border-box;
-}
-
-header {
-    background-color: #ea7d59;
-    color: #efd43c;
-    text-align: center;
-    margin: 0px;
-    padding: 50px;
-}
-
-body {
-    background-color: #cd9696;
-    margin: 0px;
-}
-
-/**目錄超連結**/
-nav{
-    background-color: #ece55f;
-    text-align: center;
-}
-
-nav a{
-    padding: 14px 16px;
-    display: inline-block;
-}
-
-nav a:hover{
-    background-color: #CEEAF7;
-    color: black;
-}
-
-main {
-    padding: 20px;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-}
-
-/**關於我**/
-section {
-    margin-bottom: 20px;
-}
-
-.area {
-    background-color: #dbb389;
-    padding: 20px;
-    margin: 30px auto;
-    border-radius: 15px;
-    width: 50%;
-    flex-direction: row;
-}
-
-.about-img {
-    max-width: 300px;
-    max-height: 300px;
-    margin: 10px 50px;
-    float: left;
-}
-
-.about1 {
-    color: #ebebd1;
-    font-size: 20px;
-    margin-top: 60px;
-}
-
-/**聯絡方式**/
-.container {
-    display: flex;
-}
-
-h1 {
-    color: #ebebd1;
-    font-size: 25px;
-}
-
-article {
-    flex: 1;
-    padding-right: 10px;
-}
-
-article a {
-    color: #2d6a4f;
-    text-align: right;
-    font-size: large;
-}
-
-article img {
-    width: 70px; /* 將圖片的寬度設置為 70 像素 */
-    height: auto; /* 將圖片的高度設置為 70 像素，使其成為正方形 */
-}
-
-.skill1 {
-    color: #557171;
-}
-
-.skill2 {
-    margin-bottom: 10px;
-}
-
-.skill3 {
-    width: 100%;
-    height: 20px;
-    background-color: #dbb389;
-    border-radius: 10px;
-    overflow: hidden;
-    margin-bottom: 10px;
-}
-
-.skill4 {
+.a4 {
     width: 0;
     height: 100%;
     background-color: #cf6f57;
