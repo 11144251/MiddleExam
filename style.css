@@ -50,6 +50,7 @@ section {
     margin: 30px auto;
     border-radius: 15px;
     width: 50%;
+    flex-direction: row;
 }
 
 .about-img {
@@ -84,6 +85,11 @@ article a {
     color: #2d6a4f;
     text-align: right;
     font-size: large;
+}
+
+article img {
+    width: 70px; /* 將圖片的寬度設置為 70 像素 */
+    height: auto; /* 將圖片的高度設置為 70 像素，使其成為正方形 */
 }
 
 /**專業能力**/
