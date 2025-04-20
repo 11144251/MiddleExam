@@ -1,239 +1,349 @@
-* {
+*{
     box-sizing: border-box;
+    font-family: 'Times New Roman';
 }
-
-header {
-    background-color: #ea7d59;
-    color: #efd43c;
+header{
+    background-color: #97A675;
+    color: #D6EAD4;
     text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: 'Times New Roman';
     margin: 0px;
-    padding: 50px;
+    padding: 40px;
 }
-
-body {
-    background-color: #cd9696;
+body{
+    background-color: #d2d7a5;
     margin: 0px;
 }
-
-
+/*選單的CSS*/
 nav{
-    background-color: #ece55f;
     text-align: center;
 }
-
 nav a{
-    padding: 14px 16px;
-    display: inline-block;
-}
-
-nav a:hover{
-    background-color: #CEEAF7;
-    color: black;
-}
-
-main {
-    padding: 20px;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-}
-
-section {
-    margin-bottom: 20px;
-}
-
-.area {
-    background-color: #dbb389;
-    padding: 20px;
-    margin: 30px auto;
+    background-color: #00738C;
     border-radius: 15px;
-    width: 50%;
-    flex-direction: row;
+    border: 5px;
+    color: #D6EAD4;
+    font-family: 'Times New Roman' ;
+    font-size: larger;
+    font-weight: bold;
+    padding: 20px 40px;
+    margin: 20px 30px;
+    display: inline-block;
+    text-decoration: none;
+}
+nav a:hover{
+    background-color: hsl(167, 12%, 60%);
+    color: #D6EAD4;
+}
+html {
+    scroll-behavior: smooth;
+  }
+footer {
+    background-color: #00738C;
+    color: #D6EAD4;
+    text-align: center;
+    padding: 10px;
+}
+.section1 {
+    font-family: 'Times New Roman', serif;  /* 確保字體加上備援字體 */
+    width: 900px;
+    height: auto;
+    background-color: #8da5a0;
+    border-radius: 20px;
+    border: 5px;
+    padding: 40px;
+    margin: 20px auto;
+    color: #D6EAD4;  /* 確保字色正確 */
 }
 
-.about-img {
-    max-width: 300px;
-    max-height: 300px;
-    margin: 10px 50px;
-    float: left;
-}
 
-.about1 {
-    color: #ebebd1;
-    font-size: 20px;
-    margin-top: 60px;
-}
-
-
-.container {
+.profile-container {
     display: flex;
-}
-
-h1 {
-    color: #ebebd1;
-    font-size: 25px;
-}
-
-article {
-    flex: 1;
-    padding-right: 10px;
-}
-
-article a {
-    color: #2d6a4f;
-    text-align: right;
-    font-size: large;
-}
-
-article img {
-    width: 70px; /* 將圖片的寬度設置為 70 像素 */
-    height: auto; /* 將圖片的高度設置為 70 像素，使其成為正方形 */
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap; /* 小螢幕換行 */
 }
 
 
-.a1 {
-    color: #557171;
+.section2{
+    width: 900px;
+    height: 2500px;
+    background-color: #8da5a0;
+    border-radius: 20px;
+    border: 5px;
+    padding: 40px 40px;
+    margin: 20px auto;
+    height: auto;
 }
 
-
-.a2 {
-    margin-bottom: 10px;
+.section3{
+    width: 900px;
+    height: 2500px;
+    background-color: #8da5a0;
+    border-radius: 20px;
+    border: 5px;
+    padding: 40px 40px;
+    margin: 20px auto;
+    height: auto;
 }
 
-
-.a3 {
-    width: 100%;
-    height: 20px;
-    background-color: #dbb389;
-    border-radius: 10px;
-    overflow: hidden;
-    margin-bottom: 10px;
+.section4{
+    width: 900px;
+    height: 2500px;
+    background-color: #8da5a0;
+    border-radius: 20px;
+    border: 5px;
+    padding: 40px 40px;
+    margin: 20px auto;
+    height: auto;
 }
 
-
-.a4 {
-    width: 0;
-    height: 100%;
-    background-color: #cf6f57;
-    animation: progressAnimation 2s ease-in-out forwards;
-}
-
-@keyframes PYTHON {
-    from {
-        width: 0;
-    }
-
-    to {
-        width: 50%;
-    }
-}
-
-@keyframes JAVA {
-    from {
-        width: 0;
-    }
-
-    to {
-        width: 60%;
-    }
-}
-
-@keyframes HTML {
-    from {
-        width: 0;
-    }
-
-    to {
-        width: 60%;
-    }
-}
-
-@keyframes CSS {
-    from {
-        width: 0;
-    }
-
-    to {
-        width: 45%;
-    }
-}
-
-aside {
-    flex: 2;
-    padding-left: 10px;
-}
-
-.about-img2 {
-    max-width: 500px;
-    max-height: 500px;
-    margin-top: 0px;
-    float: right;
-    margin-right: 200px;
-    border-radius: 10px;
-}
-
-.activity1 {
-    color: #cf6f57;
+.my_photo{/*照片及姓名*/
+    float: left;
+    font-family: 'Times New Roman';
+    font-weight: bold;
     font-size: 25px;
     text-align: center;
-    margin-top: -70px;
+    color: #D6EAD4;
+    padding: 30px 30px;
 }
 
-.activity2 {
-    color: #ffffff;
+.my_photo2 {
+    float: right;
+    font-weight: bold;
+    padding: 10px;
+    margin-top: 0px; /* 往上移動 */
+    max-width: -150px;  /* 控制整個容器寬度 */
+}
+
+.my_photo2 img {
+    width: 300px;    /* 照片寬度（可依需求改成更小） */
+    height: auto;    /* 自動調整高度以保持比例 */
+    border-radius: 10px;
+}
+
+.myself {
+    font-family: 'Times New Roman';
+    font-weight: bold;
+    font-size: 23px;
+    color: #D6EAD4;
+    margin-left: 100px; /* 區塊往右移 */
+}
+
+
+
+
+.txt{/*section3圖片標題*/
+    font-family: 'Times New Roman';
+    font-weight: bold;
     font-size: 20px;
     text-align: center;
-    margin-top: 20px;
+    color: #00738C;
+}
+.txt1{/*section2其他能力的字型*/
+    font-family: 'Times New Roman';
+    font-weight: bold;
+    font-size: 20px;
+    text-align: left;
+    color: #D6EAD4;
+    padding: auto; 
+}
+.txt2{/*section3心得字型*/
+    font-family: 'Times New Roman';
+    font-weight: bold;
+    font-size: 16px;
+    text-align: left;
+    line-height: 40px;
+    color: #D6EAD4;
+    padding: auto;
+}
+h2{/*section2、3標題的字型*/
+    font-family: 'Times New Roman';
+    font-weight: bold;
+    text-align: center;
+    color: #d2d7a5;
+    padding: auto;
+}
+.work{/*section3工作經驗字型*/
+    text-align: center;
+    padding: 15px;
+    padding-left: 200px;
+}
+
+/*section2排版*/
+.all_skills_display{
+    display: flex;
+    justify-content: space-around;
+    margin: 0;   
+}
+
+/*圓餅圖*/
+@property --percentage{
+    syntax: "<number>";
+    inherits: true;
+    initial-value: 0;
+}
+@keyframes pieAni{
+    from {
+      --percentage: 0;
+    }
+}
+.pie_display{
+    display: wrap;
+}
+.pie {
+    width: 150px; 
+    aspect-ratio: 1; 
+    display: inline-grid;
+    place-content: center;
+    margin: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Times New Roman';
+    color: #D6EAD4;
+    position: relative;
+}
+.pie::before{
+    content: "";
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    inset: 0;
+    background: conic-gradient(var(--color) calc(var(--percentage) * 1%),#0000 0%), #d2d7a5;
+    -webkit-mask-image: radial-gradient(farthest-side,#0000 calc(100% - 10px),#000 calc(100% - 10px));/*圓餅圖遮罩效果*/
+    mask-image: radial-gradient(farthest-side,#0000 calc(75% - 10px),#000 calc(75% - 10px));/*圓餅圖遮罩效果的寬度*/
+}
+.pie.ani{
+    animation-name: pieAni;
+    animation-duration: 4s;
+    animation-fill-mode: both;
+    animation-iteration-count : infinite;
+}
+
+/*鉛直線*/
+.v_line{
+    border-right: thick solid #d2d7a5;
+    height:400px;
+    left: 50%;
+}
+
+/*長進度條*/
+.progress_display{
+    align-content: space-around;
+    margin: 0px;
+    padding-left: 20px;  
+}
+.pro {/*進度條底色*/
+    border-radius: 30px;
+    width: 350px;
+    height: 30px;
+    border: #d2d7a5;
+    background-color:#d2d7a5;
+}
+/*進度條動畫效果*/
+@keyframes progressAni1 {
+    0% {
+      width: 5%;
+      background-color: #6e8489;
+    }
+    100% {
+      width: 75%;
+      background-color: #00738C;
+    }
+}
+@keyframes progressAni2 {
+    0% {
+      width: 5%;
+      background-color: #6e8489;
+    }
+    100% {
+      width: 70%;
+      background-color: #00738C;
+    }
+}
+@keyframes progressAni3 {
+    0% {
+      width: 5%;
+      background-color: #6e8489;
+    }
+    100% {
+      width: 80%;
+      background-color: #00738C;
+    }
+}
+.probar1 {/*實際進度條*/
+    height: 30px;
+    border-radius: 15px;
+    transition-property: width, background-color;
+}
+.probar2 {
+    height: 30px;
+    border-radius: 15px;
+    transition-property: width, background-color;
+}
+.probar3 {
+    height: 30px;
+    border-radius: 15px;
+    transition-property: width, background-color;
+}
+.progress-moved .probar1 {
+    width: 80%;
+    background-color: #00738C;
+    animation: progressAni1 4s;
+    animation-iteration-count : infinite;
+}
+.progress-moved .probar2 {
+    width: 70%;
+    background-color: #00738C;
+    animation: progressAni2 4s;
+    animation-iteration-count : infinite;
+}
+.progress-moved .probar3 {
+    width: 60%;
+    background-color: #00738C;
+    animation: progressAni3 4s;
+    animation-iteration-count : infinite;
+}
+
+/*section3圖繞圖*/
+.picleft{
+    float: left;
+    margin: 0px;
+    padding-right: 30px;
+}
+.picright{
+    float: right;
+    margin: 0px;
+    padding-left: 30px;
 }
 
 .slider-container {
     width: 100%;
-    height: auto;
     overflow: hidden;
     position: relative;
 }
 
 .slider {
     display: flex;
-    transition: transform 0.5s;
-}
-
-.slider.animate {
-    animation: play 6s linear infinite;
-
+    width: max-content;
+    animation: scrollSlider 20s linear infinite;
 }
 
 .slider img {
-    width: 500px;
+    width: 300px; /* 可依需求調整圖片寬度 */
     height: auto;
+    object-fit: cover;
+    margin-right: 10px; /* 每張圖之間留點空 */
 }
 
-@keyframes play {
+@keyframes scrollSlider {
     0% {
-        transform: translateX(0);
+        transform: translateX(0%);
     }
-
     100% {
-        transform: translateX(-100%);
+        transform: translateX(-50%);
     }
 }
 
-.experience1 {
-    text-align: center;
-    color: #cf6f57;
-    font-size: 25px;
-}
-
-.school3 {
-    text-align: center;
-    color: #ffffff;
-    font-size: 20px;
-}
-
-footer {
-    background-color: #ea7d59;
-    color: #ebebd1;
-    text-align: center;
-    padding: 10px;
-    font-size: 20px;
-}
